@@ -1,127 +1,83 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Projects</title>
-    <style>
-        body { 
-            font-family: Arial, sans-serif; 
-            margin: 0; 
-            padding: 0; 
-            background: #eef3f8; 
-        }
+<!-- BLUE CORPORATE BANNER -->
+<div style="background: linear-gradient(to right, #0a3d62, #1e5799); padding: 40px; border-radius: 10px; color: white; text-align: center; margin-bottom: 40px;">
+    <h1 style="font-size: 40px; margin: 0;">My Projects</h1>
+    <p style="font-size: 20px; opacity: 0.9;">A collection of professional, academic, and technical work</p>
+</div>
 
-        header { 
-            background: #0a3d62; 
-            padding: 20px; 
-            text-align: center; 
-        }
+<!-- GRID LAYOUT -->
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 25px;">
 
-        header a { 
-            color: white; 
-            margin: 0 15px; 
-            text-decoration: none; 
-            font-size: 18px; 
-            font-weight: bold;
-        }
+    <!-- CLOUD ARCHITECTURE CARD -->
+    <div class="project-card" style="background:white; padding:25px; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.1); transition:0.3s;">
+        <h2 style="color:#0a3d62;">Cloud Architecture Projects</h2>
+        <p>Designed cloud-based solutions for Polytronic Training Systems LLC focusing on scalability, security, and operational efficiency.</p>
+        <ul>
+            <li>Cloud migration planning</li>
+            <li>Infrastructure diagrams</li>
+            <li>Cost optimization strategies</li>
+        </ul>
 
-        .content {
-            max-width: 1100px;
-            margin: 40px auto;
-            background: white;
-            padding: 40px;
-            border-radius: 10px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-        }
-
-        /* Hover animation */
-        .project-card:hover {
-            transform: translateY(-5px);
-        }
-    </style>
-</head>
-<body>
-
-<!-- HEADER (always stays at the top) -->
-<header>
-    <a href="index.html">Home</a>
-    <a href="about.html">About Me</a>
-    <a href="projects.html">Projects</a>
-    <a href="cloud-solution.html">Cloud Solution</a>
-    <a href="resume.html">Resume</a>
-    <a href="reflection.html">Reflection</a>
-    <a href="ethics.html">Ethics</a>
-    <a href="technologies.html">Technologies & Tools</a>
-    <a href="contact.html">Contact</a>
-</header>
-
-<!-- MAIN CONTENT -->
-<div class="content">
-
-    <!-- BLUE CORPORATE BANNER -->
-    <div style="background: linear-gradient(to right, #0a3d62, #1e5799); padding: 40px; border-radius: 10px; color: white; text-align: center; margin-bottom: 40px;">
-        <h1 style="font-size: 40px; margin: 0;">My Projects</h1>
-        <p style="font-size: 20px; opacity: 0.9;">A collection of professional, academic, and technical work</p>
+        <!-- DOWNLOAD BUTTON FOR CLOUD SOLUTION PDF -->
+        <a href="Polytronic_CloudSolutionProposal_IT160_dymb.pdf" download
+           style="display:inline-block; padding:12px 25px; background:#0a3d62; color:white; 
+                  border-radius:8px; text-decoration:none; font-size:16px; font-weight:bold; margin-top:15px;">
+            ⬇ Download Cloud Solution PDF
+        </a>
     </div>
 
-    <!-- GRID LAYOUT -->
-    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 25px;">
+    <!-- IT INSTALLATION CARD -->
+    <div class="project-card" style="background:white; padding:25px; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.1); transition:0.3s;">
+        <h2 style="color:#0a3d62;">IT Installation Projects</h2>
+        <p>Hands-on installation and configuration of hardware and systems as part of my role as an IT installation technician.</p>
+        <ul>
+            <li>Network setup and cabling</li>
+            <li>Hardware installation and testing</li>
+            <li>Troubleshooting and maintenance</li>
+        </ul>
 
-        <!-- CLOUD ARCHITECTURE CARD -->
-        <div class="project-card" style="background:white; padding:25px; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.1); transition:0.3s;">
-            <h2 style="color:#0a3d62;">Cloud Architecture Projects</h2>
-            <p>Designed cloud-based solutions for Polytronic Training Systems LLC focusing on scalability, security, and operational efficiency.</p>
-            <ul>
-                <li>Cloud migration planning</li>
-                <li>Infrastructure diagrams</li>
-                <li>Cost optimization strategies</li>
-            </ul>
-        </div>
+        <!-- OPTIONAL DOWNLOAD BUTTON (if you have files) -->
+        <!-- <a href="installation_project.pdf" download style="...">⬇ Download Installation Project</a> -->
+    </div>
 
-        <!-- IT INSTALLATION CARD -->
-        <div class="project-card" style="background:white; padding:25px; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.1); transition:0.3s;">
-            <h2 style="color:#0a3d62;">IT Installation Projects</h2>
-            <p>Hands-on installation and configuration of hardware and systems as part of my role as an IT installation technician.</p>
-            <ul>
-                <li>Network setup and cabling</li>
-                <li>Hardware installation and testing</li>
-                <li>Troubleshooting and maintenance</li>
-            </ul>
-        </div>
+    <!-- ACADEMIC PROJECTS CARD -->
+    <div class="project-card" style="background:white; padding:25px; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.1); transition:0.3s;">
+        <h2 style="color:#0a3d62;">Academic Projects</h2>
+        <p>Projects completed as part of my Applied Information Technology program at Ensign College.</p>
+        <ul>
+            <li>System analysis and design</li>
+            <li>Cloud computing labs</li>
+            <li>Technical documentation and research</li>
+        </ul>
 
-        <!-- ACADEMIC PROJECTS CARD -->
-        <div class="project-card" style="background:white; padding:25px; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.1); transition:0.3s;">
-            <h2 style="color:#0a3d62;">Academic Projects</h2>
-            <p>Projects completed as part of my Applied Information Technology program at Ensign College.</p>
-            <ul>
-                <li>System analysis and design</li>
-                <li>Cloud computing labs</li>
-                <li>Technical documentation and research</li>
-            </ul>
-        </div>
+        <!-- OPTIONAL DOWNLOAD BUTTON (if you have files) -->
+        <!-- <a href="academic_project.pdf" download style="...">⬇ Download Academic Project</a> -->
+    </div>
 
-        <!-- FEATURED PROJECT CARD -->
-        <div class="project-card" style="background:white; padding:25px; border-radius:10px; box-shadow:0 4px 12px rgba(0,0,0,0.15); border-left:6px solid #1e5799; transition:0.3s;">
-            <h2 style="color:#0a3d62;">Featured Project: IT350 Network Topology</h2>
-            <p>
-                This Packet Tracer project demonstrates my skills in network topology design, routing configuration, 
-                switching, VLAN setup, and troubleshooting. Created as part of my IT350 Lab Exam.
-            </p>
+    <!-- FEATURED PROJECT CARD -->
+    <div class="project-card" style="background:white; padding:25px; border-radius:10px; box-shadow:0 4px 12px rgba(0,0,0,0.15); border-left:6px solid #1e5799; transition:0.3s;">
+        <h2 style="color:#0a3d62;">Featured Project: IT350 Network Topology</h2>
+        <p>
+            This Packet Tracer project demonstrates my skills in network topology design, routing configuration, 
+            switching, VLAN setup, and troubleshooting. Created as part of my IT350 Lab Exam.
+        </p>
 
-            <!-- DOWNLOAD BUTTON -->
-            <a href="IT350 - Lab Exam Topology - Base.pkt" download
-               style="display:inline-block; padding:14px 28px; background:#0a3d62; color:white; 
-                      border-radius:8px; text-decoration:none; font-size:18px; font-weight:bold; margin-top:15px;">
-                ⬇ Download Packet Tracer File
-            </a>
+        <!-- DOWNLOAD BUTTON FOR PACKET TRACER FILE -->
+        <a href="IT350 - Lab Exam Topology - Base.pkt" download
+           style="display:inline-block; padding:14px 28px; background:#0a3d62; color:white; 
+                  border-radius:8px; text-decoration:none; font-size:18px; font-weight:bold; margin-top:15px;">
+            ⬇ Download Packet Tracer File
+        </a>
 
-            <!-- OPTIONAL IMAGE PREVIEW -->
-            <!-- <img src="IT350-topology.png" alt="Network Topology Screenshot" style="width:100%; margin-top:20px; border-radius:10px;"> -->
-        </div>
-
+        <!-- OPTIONAL IMAGE PREVIEW -->
+        <!-- <img src="IT350-topology.png" alt="Network Topology Screenshot" style="width:100%; margin-top:20px; border-radius:10px;"> -->
     </div>
 
 </div>
 
-</body>
-</html>
+<!-- HOVER EFFECTS -->
+<style>
+    .project-card:hover {
+        transform: translateY(-5px);
+    }
+</style>
+
